@@ -3,19 +3,21 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title>Booking</title>
-	<link rel="stylesheet" href="resources/css/booking.css">
+	<title>Book Atlastic Park</title>
+	<link rel="stylesheet" href="./resources/css/main.css">
 	<link rel="stylesheet" href="./resources/css/navbar.css">
-	<link rel="stylesheet" href="./resources/css/footer.css">
+	<link rel="stylesheet" href="./resources/css/footer.css"> 
 </head>
 
 <body>
 	<div id="container">
 		<header>
-			<!-- we will add image here -->
-			<img width="50" height="50" src="https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-icon-marilyn-scott-0.png" alt="logo"> 
-			<h1>Atlastic Theme park</h1>
-
+			<div style="display: flex;">
+				<!-- we will add image here -->
+				<img width="150" height="150" src="./resources/images/TransparentLogo.png" alt="logo"> 
+				<h1>Atlastic Park</h1>
+			</div>
+		
 			<nav id="nav">
 				<!--	css end  here -->
 				<a href="index.html">Home Page</a>
@@ -23,24 +25,70 @@
 				<a href="facilities.html">Facilities Page</a>
 			</nav>
 		</header>
+		
+		<!--   Booking engine  -->
+		<section class="booking_engine">
+			<div class="container_space">
+				<div id="booking_engine_title">
+					<h3>BOOK YOUR EXPERIENCE TODAY</h3>
+				</div>
 
-		<div id="main">
-			<h1>This is the Booking</h1>
-		</div>
+				<div>
+					<label>Check-in</label>
+						<input type="date" placeholder="Arrival Date">
+					</br>
+					</br>
+					<label>Check-out</label>
+						<input type="date" placeholder="Departure Date">
+					</br>
+					</br>
+					<label>Adults</label>
+						<input type="number" placeholder="2">
+					</br>
+					</br>
+					<label>Children</label>
+						<input type="number" placeholder="2">
+					</br>
+					</br>
+						<input type="submit" placeholder="CHECK AVAILABILITY">
+					</form>
+				</div>
+		</section>
+	</br>
+	</br>
+		<section>
+			<h3>Upcoming Offers</h3>
+			<div class="grid-container">
+				<div class="grid-item">1</div>
+				<div class="grid-item">2</div>
+				<div class="grid-item">3</div>
+			</div>
+		</section>
+
+		<section>
+			<h3>Packages</h3>
+			<div class="grid-container">
+				<div class="grid-item">1</div>
+				<div class="grid-item">2</div>
+				<div class="grid-item">3</div>
+			</div>
+		</section>
+
+	</div>
+
 
 		<!--     bottom section is here -->
 		<footer id="footer">
-			<!--	css here -->
-			<style type="text/css">
-				h3 {
-					background: bisque;
-				}
-			</style>
-
-			<!--	css end  here -->
-			<h3>this is the bottom bar</h3>
+			<h4>Contact us at: </h4>
+			<ul>
+				<li>Phone: 0909090909</li>
+				<li>Facebook Icon</li>
+				<li>Instagram Icon</li>
+			</ul>
+			<h4>Address</h4>
+			<address>123 Melo Park</address>
 		</footer>
-	</div>
+	</div>	
 </body>
 
 </html>
