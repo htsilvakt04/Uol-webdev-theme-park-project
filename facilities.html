@@ -3,19 +3,21 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title>Booking</title>
-	<link rel="stylesheet" href="resources/css/booking.css">
+	<title>Book Atlastic Park</title>
+	<link rel="stylesheet" href="./resources/css/main.css">
 	<link rel="stylesheet" href="./resources/css/navbar.css">
-	<link rel="stylesheet" href="./resources/css/footer.css">
+	<link rel="stylesheet" href="./resources/css/footer.css"> 
 </head>
 
 <body>
 	<div id="container">
 		<header>
-			<!-- we will add image here -->
-			<img width="50" height="50" src="https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-icon-marilyn-scott-0.png" alt="logo"> 
-			<h1>Atlastic Theme park</h1>
-
+			<div style="display: flex;">
+				<!-- we will add image here -->
+				<img width="150" height="150" src="./resources/images/TransparentLogo.png" alt="logo"> 
+				<h1>Atlastic Park</h1>
+			</div>
+		
 			<nav id="nav">
 				<!--	css end  here -->
 				<a href="index.html">Home Page</a>
@@ -24,22 +26,63 @@
 			</nav>
 		</header>
 		
+		<!--      The main content goes here  -->
 		<div id="main">
-			<h1>This is the Facilities page</h1>
+			
+			<div id="home_description">
+				<img src="" alt="">
+				<p>This is Paragraph and description about hotel, food and beverages</p>
+			</div>
+
+			<section>
+				<h3>Hotels</h3>
+				<div class="grid-container">
+					<div class="grid-item">1</div>
+					<div class="grid-item">2</div>
+					<div class="grid-item">3</div>
+					<div class="grid-item">4</div>
+					<div class="grid-item">5</div>
+					<div class="grid-item">6</div>
+				</div>
+			</section>
+
+			<section>
+				<h3>Restaurants</h3>
+				<div class="grid-container">
+					<div class="grid-item">1</div>
+					<div class="grid-item">2</div>
+					<div class="grid-item">3</div>
+					<div class="grid-item">4</div>
+					<div class="grid-item">5</div>
+					<div class="grid-item">6</div>
+				</div>
+			</section>
+
+			<section>
+				<h3>Shops</h3>
+				<div class="grid-container">
+					<div class="grid-item">1</div>
+					<div class="grid-item">2</div>
+					<div class="grid-item">3</div>
+					<div class="grid-item">4</div>
+					<div class="grid-item">5</div>
+					<div class="grid-item">6</div>
+				</div>
+			</section>
 		</div>
 
+		<!--     bottom section is here -->
 		<footer id="footer">
-			<!--	css here -->
-			<style type="text/css">
-				h3 {
-					background: bisque;
-				}
-			</style>
-
-			<!--	css end  here -->
-			<h3>this is the bottom bar</h3>
+			<h4>Contact us at: </h4>
+			<ul>
+				<li>Phone: 0909090909</li>
+				<li>Facebook Icon</li>
+				<li>Instagram Icon</li>
+			</ul>
+			<h4>Address</h4>
+			<address>123 Melo Park</address>
 		</footer>
-	</div>
+	</div>	
 </body>
 
 </html>
