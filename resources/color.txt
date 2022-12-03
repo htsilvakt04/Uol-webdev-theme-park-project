@@ -1,0 +1,4 @@
+header: #77A7E9, rgb(119, 167, 233)
+navigation bar and paragraph background: #CCCCCC, rgb(204)
+lighter grey for the other background: #E9E9E9, rgb(233)
+buttons: #D5F6F2, rgb(213, 246, 242)
