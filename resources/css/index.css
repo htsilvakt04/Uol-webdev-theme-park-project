@@ -9,7 +9,9 @@ header {
 header h1 {
     color: white;
 }
-
+body {
+    background: #f1f1f1;
+}
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -22,4 +24,8 @@ header h1 {
     padding: 20px;
     font-size: 30px;
     text-align: center;
+}
+#booking_button button {
+    color: #D5F6F2;
+    background: white;
 }
