@@ -1,0 +1,49 @@
+@import url(./sameComponents.css);
+@import url(./navbar.css);
+
+#booking_engine {
+    padding: 20px;
+    background-color: #f3c23b;
+}
+
+#booking_engine:inlined {
+    width: 49%;
+    float: left;
+    margin-left: 1%;
+}
+
+
+#booking_engine h3{
+    font-size: 2em;
+}
+
+input, select, textarea {
+    border-radius: 5px;
+    border: 2px solid #a05423;
+    box-sizing: border-box;
+    font-size: 1.1em;
+    width: 50%;
+    padding: 10px;
+}
+
+label {
+    display: block;
+    padding-bottom: 10px;
+    font-size: 1.25em;
+}
+
+button {
+text-align: auto;
+height: 50px;
+background: #f8fff5;
+border: none;
+font-size: 1.25em;
+border-radius: 10px;
+cursor: pointer;
+padding: 10px;
+}
+
+button:hover {
+border: 2px solid black;
+color: #60a29b;
+}

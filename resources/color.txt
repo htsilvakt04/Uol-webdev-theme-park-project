@@ -1,4 +1,14 @@
-header: #77A7E9, rgb(119, 167, 233)
-navigation bar and paragraph background: #CCCCCC, rgb(204)
-lighter grey for the other background: #E9E9E9, rgb(233)
-buttons: #D5F6F2, rgb(213, 246, 242)
+
+NEW
+LIGHT BROWN #df8a57
+MIDDLE BROWN #c76d33
+DARK BROWN #a05423
+MUSTARD #f3c23b
+YELLOW #f1e12b
+OLIVE #797116 (logo colour)
+DARK GREEN #48a024
+MIDDLE GREEN #59c230
+LIGHT GREEN #7dce5c 
+TRANSPARENT GREEN FOR BACKGROUND #f8fff5
+
+
