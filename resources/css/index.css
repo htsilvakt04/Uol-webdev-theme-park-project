@@ -22,7 +22,9 @@ button:hover {
     border: 2px solid #c76d33;
     color: #60a29b;
 }
-
+body {
+    background: #f1f1f1;
+}
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
