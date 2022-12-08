@@ -1,6 +1,6 @@
 ### Uol-webdev-theme-park-project
     .
-    ├── booking.html            # The booking page
-    ├── facilities.html         # The facilities page
     ├── resources               # Css and Js files
+    ├── facilities.html         # The facilities page
+    ├── booking.html            # The booking page
     ├── index.html              # Home Page
