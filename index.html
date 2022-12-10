@@ -25,7 +25,11 @@
 	<!--      The main content goes here  -->
 	<div id="main">
 		<div>
-			<img width="100%" height="500px" src="resources/images/main-intro.jpeg" alt="">			
+			<picture>
+				<source srcset="resources/images/main-intro.jpeg" media="(min-width: 1440px)">
+				<source srcset="resources/images/main-intro-S.jpeg" media="(max-width: 1024px)">
+				<img width="100%" src="resources/images/main-intro.jpeg" alt="Gold Coast Water Parks">
+			</picture>
 		</div>
 
 		<div id="home_description">
