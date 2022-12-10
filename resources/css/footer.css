@@ -1,0 +1,16 @@
+
+#footer{
+    color: #f8fff5;
+    background-color: #466349;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+#footer h4 {
+    margin-top: 0;
+}
+
+#footer ul {
+    list-style: none;
+}

@@ -8,14 +8,8 @@
 body {
     max-width: 1024px;
     margin: auto;
-    background-color: #df8a57;
 }
 
 header {
     background-color: #f8fff5;
-}
-
-#footer{
-    color: #f8fff5;
-    background-color: #466349;
 }
