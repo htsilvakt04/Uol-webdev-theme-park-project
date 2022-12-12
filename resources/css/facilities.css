@@ -5,6 +5,10 @@ body {
     background-color: rgb(49, 134, 108);
 }
 
+.grid-container {
+    text-align: center;
+}
+
 #main-background {
     background-color: transparent;
     opacity: 0.4;
@@ -37,5 +41,6 @@ h3 {
 
 #restaurants .grid-container {
     background-color: rgb(50, 193, 193);
-    
+    display: grid;
+    grid-template-columns: auto auto;
 }
