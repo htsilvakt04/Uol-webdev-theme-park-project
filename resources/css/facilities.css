@@ -1,2 +1,39 @@
 @import url(./sameComponents.css);
 @import url(./navbar.css);
+@import url(./sameComponents.css);
+@import url(./navbar.css);
+
+
+#main-background {
+    background-color: transparent;
+    opacity: 0.8;
+    object-fit: cover;
+    object-position: center;
+    height: 450px;
+}
+
+#main .container {
+    /*position: relative;*/
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    font-size: 3em;
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*width: 80%;*/
+    /*left: 50%;*/
+    /*transform: translate(-50%, -50%);*/
+    /*background: -webkit-linear-gradient(rgb(234, 239, 105), rgb(96, 244, 46));*/
+    /*-webkit-background-clip: text;*/
+    /*-webkit-text-fill-color: transparent;*/
+}
+
+h3 {
+    font-size: 2em;
+}
+
+#restaurants .grid-container {
+    /*background-color: rgb(50, 193, 193);*/
+}
