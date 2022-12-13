@@ -7,29 +7,34 @@
 	<link rel="stylesheet" href="./resources/css/index.css">
 	<link rel="stylesheet" href="./resources/css/navbar.css">
 	<link rel="stylesheet" href="./resources/css/footer.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+	<link rel="stylesheet"
+	      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <div id="container">
 	<header>
-		<div style="display: flex;">
-			<a href="index.html">
-				<img src="./resources/images/TransparentLogo.png" alt="logo">
-			</a>
-		</div>
+		<a href="index.html">
+			<img src="./resources/images/TransparentLogo.png" alt="logo">
+		</a>
 
 		<nav id="nav">
 			<a href="index.html">Home Page</a>
 			<a href="booking.html">Booking Page</a>
 			<a href="facilities.html">Facilities Page</a>
-			<a href="facilities.html">DEF Page</a>
 		</nav>
 	</header>
 
 	<!--      The main content goes here  -->
 	<div id="main">
 		<div>
-			<img width="100%" height="500px" src="resources/images/main-intro.jpeg" alt="">			
+			<picture>
+				<source srcset="resources/images/main-intro.jpeg"
+				        media="(min-width: 1440px)">
+				<source srcset="resources/images/main-intro-S.jpeg"
+				        media="(max-width: 1024px)">
+				<img width="100%" src="resources/images/main-intro.jpeg"
+				     alt="Gold Coast Water Parks">
+			</picture>
 		</div>
 
 		<div id="home_description">
@@ -37,44 +42,45 @@
 				Welcome to Atlastic Park
 			</h3>
 			<p>Discover the world's No 1 water park in the world. </p>
-			<p> This park features play areas and activities ideal for adults and families with children of all ages.</p>
+			<p> This park features play areas and activities ideal for adults
+				and families with children of all ages.</p>
 			<p>Book now your next Atlastic adventure!!</p>
 
 			<div id="booking_button">
-				<button>Book Tickets</button>
+				<button><a href="booking.html">Book Tickets</a></button>
 			</div>
 		</div>
-			
+
 		<section id="activities">
 			<h3>Activities</h3>
 			<div class="grid-container">
-				<img class="grid-item" src="./resources/images/waterpark.jpg" style="width:100%"></img>
-				<img class="grid-item" src="./resources/images/family.jpg" style="width: 100%;"></img>
-				<img class="grid-item" src="./resources/images/slide.jpg" style="width:100%"></img>
-				<img class="grid-item" src="./resources/images/swim.jpg" style="width:100%"></img>
-				<img class="grid-item" src="./resources/images/aquarium.jpg" style="width: 100%;"></img>
-				<img class="grid-item" src="./resources/images/girl.jpg" style="width:100%"></img>
+				<img class="grid-item" src="./resources/images/waterpark.jpg"
+				     style="width:100%"/>
+				<img class="grid-item" src="./resources/images/family.jpg"
+				     style="width: 100%;"/>
+				<img class="grid-item" src="./resources/images/slide.jpg"
+				     style="width:100%"/>
+				<img class="grid-item" src="./resources/images/swim.jpg"
+				     style="width:100%"/>
+				<img class="grid-item" src="./resources/images/aquarium.jpg"
+				     style="width: 100%;"/>
+				<img class="grid-item" src="./resources/images/girl.jpg"
+				     style="width:100%"/>
 			</div>
 		</section>
 	</div>
-</div>
 
-<div>
-	<!--     bottom section is here -->
 	<footer id="footer">
-		<h4>Contact us at: </h4>
-		<ul>
-		  <li>Phone: 0909090909</li>
-		  <li><a href="https://www.facebook.com/" class="fa fa-facebook">
-			Visit our Facebook</a></li>
-		  <li><a href="https://www.instagram.com/" class="fa fa-instagram">
-			Visit our Instagram</a></li>
-		  <li><a href="https://twitter.com/" class="fa fa-twitter">
-			Visit our Instagram</a></li>
-		</ul>
-		<h4>Address</h4>
-		<address>123 Melo Park</address>
-	  </footer>	 
+		<div>
+			<h4>Contact us at: </h4>
+			<ul>
+				<li>Phone: +44 1253 241602</li>
+				<li>Facebook: Icon</li>
+				<li>Instagram: Icon</li>
+			</ul>
+			<address>Promenade, Blackpool FZ1 1CB, United Kingdom</address>
+		</div>
+	</footer>
 </div>
 </body>
 

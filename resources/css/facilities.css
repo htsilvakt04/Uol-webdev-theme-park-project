@@ -1,5 +1,7 @@
 @import url(./sameComponents.css);
 @import url(./navbar.css);
+@import url(./sameComponents.css);
+@import url(./navbar.css);
 
 body {
     background-color: rgb(49, 134, 108);
@@ -37,5 +39,5 @@ h3 {
 
 #restaurants .grid-container {
     background-color: rgb(50, 193, 193);
-    
+
 }

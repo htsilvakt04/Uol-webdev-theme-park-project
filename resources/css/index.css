@@ -8,7 +8,6 @@
 }
 
 button {
-    text-align: auto;
     height: 50px;
     background: #f8fff5;
     border: none;
@@ -22,19 +21,15 @@ button:hover {
     border: 2px solid #c76d33;
     color: #60a29b;
 }
-body {
-    background: #f1f1f1;
-}
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-row: auto auto auto;
-    background-color: #f3c23b ;
-    float: left;
-    width: 100%;
-    padding: 10px 10px 10px 10px;
-}
 
-.grid-item {
+
+
+#activities .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    background-color: #f3c23b ;
+    width: 100%;
+    grid-gap: 5px;
     padding: 5px;
 }
