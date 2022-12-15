@@ -7,7 +7,8 @@
 	<link rel="stylesheet" href="./resources/css/booking.css">
 	<link rel="stylesheet" href="./resources/css/navbar.css">
 	<link rel="stylesheet" href="./resources/css/footer.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+	<link rel="stylesheet"
+	      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -28,41 +29,96 @@
 	<section id="booking_engine">
 		<h3>BOOK YOUR EXPERIENCE TODAY</h3>
 		<form action="">
-			<label>Check-in</label>
-			<input type="date" placeholder="Arrival Date">
-			</br>
-			</br>
-			<label>Check-out</label>
-			<input type="date" placeholder="Departure Date">
-			</br>
-			</br>
-			<label>Adults</label>
-			<input type="number" placeholder="2">
-			</br>
-			</br>
-			<label>Children</label>
-			<input type="number" placeholder="2">
-			</br>
-			</br>
-			<button type="submit">Check Availability</button>
+				<label>Check-in</label>
+				<input type="date" placeholder="Arrival Date">
+
+
+				<label>Check-out</label>
+				<input type="date" placeholder="Departure Date">
+
+
+
+				<label>Adults</label>
+				<input type="number" placeholder="2">
+
+
+
+				<label>Children</label>
+				<input type="number" placeholder="2">
+
+			<button id="check_btn" type="submit">Check Availability</button>
 		</form>
 	</section>
 
 	<section id="offers">
-		<h3>Upcoming Offers</h3>
-		<div class="grid-container">
-			<div class="grid-item">1</div>
-			<div class="grid-item">2</div>
-			<div class="grid-item">3</div>
+		<h2>Upcoming Offers: </h2>
+		<div class="offer-items">
+			<article class="card">
+				<header>
+					<h3>AIR + HOTEL & SAVE</h3>
+				</header>
+				<img src="resources/images/booking/o_1.jpeg" alt="Hot air balloons">
+				<div class="content">
+					<p>Bundle and save up to $300 with flight and hotel deals to the Bahamas.. </p>
+				</div>
+				<button class="check_btn" type="submit">Book</button>
+			</article>
+			<article class="card">
+				<header>
+					<h3>DATES WITH HOT RATES</h3>
+				</header>
+				<img src="resources/images/booking/o_2.jpeg" alt="Hot air balloons">
+				<div class="content">
+					<p>Looking for a last-minute getaway and are flexible with your travel dates? Here are our “hot dates” offer. </p>
+				</div>
+				<button class="check_btn" type="submit">Book</button>
+			</article>
+			<article class="card">
+				<header>
+					<h3>YESHIVA IN PARADISE</h3>
+				</header>
+				<img src="resources/images/booking/o_3" alt="Hot air balloons">
+				<div class="content">
+					<p>Enjoy exclusive 20% savings off your accommodations plus a Kosher Dining Plan offering breakfast and dinner. </p>
+				</div>
+				<button class="check_btn" type="submit">Book</button>
+			</article>
 		</div>
 	</section>
 
 	<section id="packages">
-		<h3>Packages</h3>
-		<div class="grid-container">
-			<div class="grid-item">1</div>
-			<div class="grid-item">2</div>
-			<div class="grid-item">3</div>
+		<h2>Packages: </h2>
+		<div class="offer-items">
+			<article class="card">
+				<header>
+					<h3>LOVE IS HERE</h3>
+				</header>
+				<img src="resources/images/booking/p_1.jpeg" alt="Hot air balloons">
+				<div class="content">
+					<p> Enjoy a romantic Bahamas getaway package with someone special. </p>
+				</div>
+				<button class="check_btn" type="submit">Book</button>
+			</article>
+			<article class="card">
+				<header>
+					<h3>TEE TIME</h3>
+				</header>
+				<img src="resources/images/booking/p_2" alt="Hot air balloons">
+				<div class="content">
+					<p>Reserve our Golf Getaway Package to get a round of golf – and more – with your stay at the Bahamas.</p>
+				</div>
+				<button class="check_btn" type="submit">Book</button>
+			</article>
+			<article class="card">
+				<header>
+					<h3>A LITTLE SUITER</h3>
+				</header>
+				<img src="resources/images/booking/p_3.jpeg" alt="Hot air balloons">
+				<div class="content">
+					<p>Your suite room comes with more than just a view. Discover more that’s included in this Bahamas hotel package.</p>
+				</div>
+				<button class="check_btn" type="submit">Book</button>
+			</article>
 		</div>
 	</section>
 
@@ -79,8 +135,9 @@
 				Visit our Instagram</a></li>
 		</ul>
 		<address>Promenade, Blackpool FZ1 1CB, United Kingdom</address>
-	  </footer>	 
+	</footer>
 </div>
 </body>
 
 </html>
+
