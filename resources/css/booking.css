@@ -3,17 +3,17 @@
 
 #booking_engine {
     justify-content: center;
-    display: grid;
     padding-top: 20px;
     padding-bottom: 30px;
     background-color: #f1f2ed;
     margin-bottom: 20px;
+    display: grid;
+
 }
 
 #booking_engine form {
     justify-self: center;
-    width: 70%;
-
+    width: 100%;
 }
 #check_btn {
     margin-top: 20px;
@@ -24,13 +24,15 @@
 
 .check_btn {
     width: fit-content;
-    justify-self: start;
+    justify-self: right;
     background: white;
     border: 1px solid black;
+    float: right;
 }
 
 #booking_engine h3 {
     font-size: 2em;
+
 }
 
 #offers {
