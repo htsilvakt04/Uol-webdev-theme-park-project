@@ -1,9 +1,16 @@
 #nav {
-    padding: 10px;
     background-color: #466349;
     color: #f8fff5;
+    height: 45px;
+}
+
+nav ul {
     display: flex;
     justify-content: center;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    height: 100%;
 }
 
 nav a {
@@ -16,3 +23,15 @@ a:link { text-decoration: none; }
 a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
 a:active { text-decoration: none; }
+
+nav ul li:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+}
+nav ul li {
+    margin-right: 30px;
+}
+nav ul li a {
+    margin: 10px auto;
+    display: block;
+}
