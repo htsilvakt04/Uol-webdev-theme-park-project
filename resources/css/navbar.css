@@ -1,9 +1,17 @@
 #nav {
-    padding: 10px;
     background-color: #466349;
     color: #f8fff5;
+    height: 45px;
+}
+
+nav ul {
+    position: relative;
     display: flex;
     justify-content: center;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    height: 100%;
 }
 
 nav a {
@@ -16,3 +24,58 @@ a:link { text-decoration: none; }
 a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
 a:active { text-decoration: none; }
+
+nav ul li {
+    margin-right: 30px;
+}
+nav ul li a {
+    margin: 10px auto;
+    display: block;
+}
+
+
+
+/**************** hover effect section ****************/
+nav li:after,
+nav li:before {
+    content: "";
+    position: absolute;
+    width: 0%;
+    display: block;
+    height: 1px;
+    transition: all 0.3s ease;
+}
+
+nav li:after {
+    bottom: 5%;
+}
+
+nav li:before {
+    top: 5%;
+}
+
+nav li:hover::after {
+    width: 10%;
+    height: 1px;
+    bottom: 25%;
+    background-color: #fff;
+}
+
+nav ul li:nth-child(2):hover::after,
+nav ul li:nth-child(3):hover::after {
+    width: 12%;
+}
+
+nav li:hover::before {
+    width: 10%;
+    height: 1px;
+    top: 25%;
+    background-color: #fff;
+}
+
+nav ul li:nth-child(2):hover::before,
+nav ul li:nth-child(3):hover::before {
+    width: 12%;
+}
+
+/**************** END hover effect section ****************/
