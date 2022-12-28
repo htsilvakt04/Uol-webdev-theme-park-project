@@ -27,28 +27,31 @@
 	</header>
 
 	<!--   Booking section  -->
+	
 	<section id="booking_engine">
 		<h3>BOOK YOUR EXPERIENCE TODAY</h3>
 		<form action="">
 				<label>Check-in</label>
-				<input type="date" placeholder="Arrival Date">
+				<input type="date" placeholder="Arrival Date" id="datePickerId">
 
 
 				<label>Check-out</label>
-				<input type="date" placeholder="Departure Date">
+				<input type="date" placeholder="Departure Date" id="datePickerId2">
 
 
 
 				<label>Adults</label>
-				<input type="number" placeholder="2">
+				<input type="number" min="0" placeholder="2">
 
 
 
 				<label>Children</label>
-				<input type="number" placeholder="2">
+				<input type="number" min="0" placeholder="2">
 
 			<button id="check_btn" type="submit">Check Availability</button>
 		</form>
+		<script> datePickerId.min = new Date().toISOString().split("T")[0]; </script>
+		<script> datePickerId2.min = new Date().toISOString().split("T")[0]; </script>
 	</section>
 
 	<section id="offers">

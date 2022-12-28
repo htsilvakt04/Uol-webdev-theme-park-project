@@ -47,15 +47,15 @@ button:hover {
     width: 100%;
     opacity: 0;
     transition: 0.5s ease;
-    background-color: black;
+    background-color: white;
 }
 
 .container:hover .overlay {
-    opacity: 0.5;
+    opacity: 0.8;
 }
 
-.text {
-    color: white;
+.container .text {
+    color: black;
     font-size: 20px;
     position: absolute;
     top: 50%;
