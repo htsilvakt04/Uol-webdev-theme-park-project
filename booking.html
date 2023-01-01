@@ -27,99 +27,72 @@
 	</header>
 
 	<!--   Booking section  -->
+	
 	<section id="booking_engine">
-		<h3>BOOK YOUR EXPERIENCE TODAY</h3>
-		<form action="">
+		<h3>BOOK YOUR EXPERIENCE</h3>
+		<form class="content" action="">
 				<label>Check-in</label>
-				<input type="date" placeholder="Arrival Date">
+				<input type="date" placeholder="Arrival Date" id="datePickerId">
 
 
 				<label>Check-out</label>
-				<input type="date" placeholder="Departure Date">
+				<input type="date" placeholder="Departure Date" id="datePickerId2">
 
 
 
 				<label>Adults</label>
-				<input type="number" placeholder="2">
+				<input type="number" min="0" placeholder="2">
 
 
 
 				<label>Children</label>
-				<input type="number" placeholder="2">
+				<input type="number" min="0" placeholder="2">
 
 			<button id="check_btn" type="submit">Check Availability</button>
 		</form>
+		<script> datePickerId.min = new Date().toISOString().split("T")[0]; </script>
+		<script> datePickerId2.min = new Date().toISOString().split("T")[0]; </script>
 	</section>
 
 	<section id="offers">
-		<h2>Upcoming Offers: </h2>
+		<h2>Upcoming Offers </h2>
 		<div class="offer-items">
-			<article class="card">
-				<header>
+			<div class="card">
 					<h3>AIR + HOTEL & SAVE</h3>
-				</header>
-				<img src="resources/images/booking/o_1.jpeg" alt="Hot air balloons">
-				<div class="content">
+					<img src="resources/images/booking/o_1.jpeg">
 					<p>Bundle and save up to $300 with flight and hotel deals to the Bahamas.. </p>
 				</div>
-				<button class="check_btn" type="submit">Book</button>
-			</article>
-			<article class="card">
-				<header>
+			<div class="card">
 					<h3>DATES WITH HOT RATES</h3>
-				</header>
-				<img src="resources/images/booking/o_2.jpeg" alt="Hot air balloons">
-				<div class="content">
+					<img src="resources/images/booking/o_2.jpeg">
 					<p>Looking for a last-minute getaway and are flexible with your travel dates? Here are our “hot dates” offer. </p>
 				</div>
-				<button class="check_btn" type="submit">Book</button>
-			</article>
-			<article class="card">
-				<header>
+			<div class="card">
 					<h3>YESHIVA IN PARADISE</h3>
-				</header>
-				<img src="resources/images/booking/o_3" alt="Hot air balloons">
-				<div class="content">
+					<img src="resources/images/booking/o_3.jpeg">
 					<p>Enjoy exclusive 20% savings off your accommodations plus a Kosher Dining Plan offering breakfast and dinner. </p>
 				</div>
-				<button class="check_btn" type="submit">Book</button>
-			</article>
 		</div>
 	</section>
 
 	<section id="packages">
-		<h2>Packages: </h2>
+		<h2>Packages </h2>
 		<div class="offer-items">
-			<article class="card">
-				<header>
+			<div class="card">
 					<h3>LOVE IS HERE</h3>
-				</header>
-				<img src="resources/images/booking/p_1.jpeg" alt="Hot air balloons">
-				<div class="content">
+					<img src="resources/images/booking/p_1.jpeg">
 					<p> Enjoy a romantic Bahamas getaway package with someone special. </p>
 				</div>
-				<button class="check_btn" type="submit">Book</button>
-			</article>
-			<article class="card">
-				<header>
+				<div class="card">
 					<h3>TEE TIME</h3>
-				</header>
-				<img src="resources/images/booking/p_2" alt="Hot air balloons">
-				<div class="content">
+					<img src="resources/images/booking/p_2.jpeg">
 					<p>Reserve our Golf Getaway Package to get a round of golf – and more – with your stay at the Bahamas.</p>
 				</div>
-				<button class="check_btn" type="submit">Book</button>
-			</article>
-			<article class="card">
-				<header>
+				<div class="card">
 					<h3>A LITTLE SUITER</h3>
-				</header>
-				<img src="resources/images/booking/p_3.jpeg" alt="Hot air balloons">
-				<div class="content">
+					<img src="resources/images/booking/p_3.jpeg">
 					<p>Your suite room comes with more than just a view. Discover more that’s included in this Bahamas hotel package.</p>
 				</div>
-				<button class="check_btn" type="submit">Book</button>
-			</article>
 		</div>
 	</section>
 
