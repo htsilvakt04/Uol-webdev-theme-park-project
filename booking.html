@@ -9,6 +9,9 @@
 	<link rel="stylesheet" href="./resources/css/footer.css">
 	<link rel="stylesheet"
 	      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script> datePickerId.min = new Date().toISOString().split("T")[0]; </script>
+	<script> datePickerId2.min = new Date().toISOString().split("T")[0]; </script>
+
 </head>
 
 <body>
@@ -30,6 +33,8 @@
 	
 	<section id="booking_engine">
 		<h3>BOOK YOUR EXPERIENCE</h3>
+		<div id="booking_engine_intro_img">
+		</div>
 		<form class="content" action="">
 				<label>Check-in</label>
 				<input type="date" placeholder="Arrival Date" id="datePickerId">
@@ -39,19 +44,14 @@
 				<input type="date" placeholder="Departure Date" id="datePickerId2">
 
 
-
 				<label>Adults</label>
 				<input type="number" min="0" placeholder="2">
-
-
 
 				<label>Children</label>
 				<input type="number" min="0" placeholder="2">
 
 			<button id="check_btn" type="submit">Check Availability</button>
 		</form>
-		<script> datePickerId.min = new Date().toISOString().split("T")[0]; </script>
-		<script> datePickerId2.min = new Date().toISOString().split("T")[0]; </script>
 	</section>
 
 	<section id="offers">

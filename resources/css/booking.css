@@ -4,27 +4,39 @@
 #booking_engine {
     padding: 30px;
     background-color: #f1f2ed;
-    display: flex;
-    flex-direction: column;
-    box-sizing: unset;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
-.content {
-    width: 40%;
+#booking_engine h3 {
+    margin: 0px 0px 20px 0px;
+    font-size: 1.66em;
+    grid-column: 1 / 3;
+    text-align: center;
+}
+
+#booking_engine form {
+    margin-left: 15%;
 }
 
 #check_btn {
     margin-top: 20px;
     border: 1px solid black;
     background-color: white;
-    float: right;
+    float: left;
     padding: 5px;
 }
 
-#booking_engine h3 {
-    margin: 0px 0px 20px 0px;
-    font-size: 1.66em;
+
+#booking_engine_intro_img {
+    background: #c76d33;
 }
+.content {
+    width: 80%;
+}
+
+
+
 
 #packages {
     margin-top: 20px;
