@@ -22,11 +22,21 @@
 #check_btn {
     margin-top: 20px;
     border: 1px solid black;
-    background-color: white;
     float: left;
     padding: 5px;
+
+    height: 50px;
+    background: #f1f2ed;
+    font-size: 1.1em;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
+
+#check_btn:hover {
+    border: 2px solid black;
+    color: #60a29b;
+}
 
 #booking_engine_intro_img {
     background: #c76d33;
@@ -34,9 +44,6 @@
 .content {
     width: 80%;
 }
-
-
-
 
 #packages {
     margin-top: 20px;
@@ -67,7 +74,7 @@
     text-align: justify;
 }
 
-input, select, textarea {
+#booking_engine input, select, textarea {
     border-radius: 5px;
     border: 2px solid #a05423;
     font-size: 1.1em;
@@ -80,17 +87,3 @@ label {
     font-size: 1.1em;
 }
 
-button {
-    height: 50px;
-    background: #f8fff5;
-    border: none;
-    font-size: 1.1em;
-    border-radius: 10px;
-    cursor: pointer;
-    float: right;
-}
-
-button:hover {
-    border: 2px solid black;
-    color: #60a29b;
-}

@@ -7,7 +7,7 @@
     padding: 10px 15px;
 }
 
-button {
+#booking_button button {
     height: 50px;
     background: #f8fff5;
     border: none;
@@ -17,7 +17,7 @@ button {
     padding: 10px;
 }
 
-button:hover {
+#booking_button button:hover {
     border: 2px solid #c76d33;
     color: #60a29b;
 }
