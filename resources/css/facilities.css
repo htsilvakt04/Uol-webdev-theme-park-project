@@ -22,11 +22,11 @@ body {
 .centered {
     font-size: 2em;
     position: absolute;
-    top: 50%;
+    top: 47%;
     width: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: -webkit-linear-gradient(rgb(234, 239, 105), rgb(96, 244, 46));
+    background: -webkit-linear-gradient(rgb(8, 8, 0), rgb(36, 122, 8));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -51,4 +51,8 @@ h3 {
 
 .grid-item {
     padding: 5px;
+}
+
+#main-background {
+    height: 300px;
 }
