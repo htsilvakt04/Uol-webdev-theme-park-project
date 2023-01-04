@@ -4,11 +4,13 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Book Atlastic Park</title>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link rel="stylesheet" href="./resources/css/index.css">
 	<link rel="stylesheet" href="./resources/css/navbar.css">
 	<link rel="stylesheet" href="./resources/css/footer.css">
 	<link rel="stylesheet" href="./resources/css/facilities.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
 </head>
 
 <body>
@@ -38,26 +40,43 @@
 				experience with us!
 			</div>
 		</div>
+
 		<!-- Hotels in the park -->
 		<section id="hotels">
-			<h3>Hotels</h3>
-			<div class="grid-container">
-				<div class="grid-item">
-					<img class="grid-item" src="./resources/images/facilities/hotel-luxury.jpg"
-					     style="width:100%" height="250"></img>
-					<p>HOTEL LUXURY - for high standards</p>
+			<h3>Hotels</h3>	  
+			<div class="w3-content w3-display-container">
+
+				<div class="w3-display-container mySlides">
+				  <img src="./resources/images/facilities/hotel-luxury.jpg" style="width:100%">
+				  <div class="w3-display-bottommiddle w3-large w3-container w3-padding-16 w3-black">
+					HOTEL LUXURY - for high standards
+				  </div>
 				</div>
-				<div class="grid-item">
-					<img class="grid-item" src="./resources/images/facilities/hotel-caribe.jpg"
-					     style="width:100%" height="250"></img>
-					<p>HOTEL CARIBE - fell like in a caribean island</p>
+				
+				<div class="w3-display-container mySlides">
+				  <img src="./resources/images/facilities/hotel-caribe.jpg" style="width:100%">
+				  <div class="w3-display-bottommiddle w3-large w3-container w3-padding-16 w3-black">
+					HOTEL CARIBE - feel like in a caribean island
+				  </div>
 				</div>
-				<div class="grid-item">
-					<img class="grid-item" src="./resources/images/facilities/hotel-summer.jpg"
-					     style="width:100%" height="250"></img>
-					<p>HOTEL SUMMER - enjoy the best of the summer</p>
+				
+				<div class="w3-display-container mySlides">
+				  <img src="./resources/images/facilities/hotel-summer.jpg" style="width:100%">
+				  <div class="w3-display-bottommiddle w3-large w3-container w3-padding-16 w3-black">
+					HOTEL SUMMER - enjoy the best of the summer
+				  </div>
 				</div>
-			</div>
+
+				<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+				<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+				
+				<div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-topmiddle" style="width:100%">
+					<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(0)"></span>
+					<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+					<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+				</div>
+				<script src="./resources/js/facilities-slide-show.js"></script>
+			
 		</section>
 
 		<section id="restaurants">
