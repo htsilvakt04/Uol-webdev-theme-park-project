@@ -1,46 +1,52 @@
-
 #footer{
+    padding-left: 16px;
+    padding-bottom: 16px;
     color: #f8fff5;
     background-color: #466349;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    padding: 15px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-}
-
-#footer h4 {
-    margin-top: 0;
 }
 
 #footer ul {
     list-style: none;
     display: flex;
+    gap: 15px;
+    margin-left: -40px;
 }
-#footer_form {
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
+
+#footer input{
+    border-radius: 5px;
+    border: 2px solid #f3c23b;
+    font-size: 1em;
+    width: 50%;
+    padding: 6px 6px;
+    margin-bottom: 10px;
 }
+
+#footer label {
+    font-size: 1.2em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 /* Style the input fields */
 .newsletter{
     display: flex;
-}
-
-.input-field:focus {
-    border: 2px solid #FFE15D;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 10px;
 }
 
 /* Set a style for the submit button */
 .btn {
     width: fit-content;
-    padding: 10px 32px;
+    padding: 5px 10px;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    font-size: 1em;
+    border-radius: 5px;
     cursor: pointer;
-
+    margin-top: 5px;
     background-color: white;
     color: gray;
     border: 2px solid #e7e7e7;
