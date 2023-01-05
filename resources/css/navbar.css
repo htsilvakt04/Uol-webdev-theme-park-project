@@ -6,9 +6,8 @@
 
 nav ul {
     position: relative;
-    /*display: grid;*/
-    /*grid-template-columns: 1fr 1fr 1fr;*/
-    /*justify-items: center;*/
+    display: flex;
+    justify-content: center;
     list-style: none;
     text-align: center;
     margin: 0;
@@ -35,17 +34,17 @@ nav ul li a {
     display: block;
 }
 
-nav ul li:nth-child(1) {
-    float: left;
-    margin-left: 10%;
-}
+/*nav ul li:nth-child(1) {*/
+/*    float: left;*/
+/*    margin-left: 10%;*/
+/*}*/
 
-nav ul li:nth-child(2),
-nav ul li:nth-child(3)
-{
-    float: right;
-    margin-right: 10%;
-}
+/*nav ul li:nth-child(2),*/
+/*nav ul li:nth-child(3)*/
+/*{*/
+/*    float: right;*/
+/*    margin-right: 10%;*/
+/*}*/
 
 
 /**************** hover effect section ****************/
