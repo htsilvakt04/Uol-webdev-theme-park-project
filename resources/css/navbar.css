@@ -76,7 +76,7 @@ nav li:hover::after {
 nav li:hover::before {
     width: 100%;
     height: 1px;
-    top: 25%;
+    top: 20%;
     background-color: #fff;
 }
 
