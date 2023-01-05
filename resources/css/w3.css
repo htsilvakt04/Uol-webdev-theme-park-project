@@ -2,13 +2,8 @@
 
 /* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
 
-/* This CSS is required for the facilities / hotels animation */
 
-
-
-
-
- abbr[title]{
+abbr[title]{
     border-bottom:none;
     text-decoration:underline;
     text-decoration:underline dotted
@@ -138,8 +133,6 @@ h6{
     font-family:monospace
 }
  h1,h2,h3,h4,h5,h6{
-    font-family:"Segoe UI",Arial,sans-serif;
-    font-weight:400;
     margin:10px 0
 }
 .w3-wide{
