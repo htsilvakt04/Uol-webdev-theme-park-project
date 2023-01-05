@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="./resources/css/footer.css">
 	<link rel="stylesheet"
 	      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 	<script> datePickerId.min = new Date().toISOString().split("T")[0]; </script>
 	<script> datePickerId2.min = new Date().toISOString().split("T")[0]; </script>
 
@@ -34,6 +35,7 @@
 	<section id="booking_engine">
 		<h3>BOOK YOUR EXPERIENCE</h3>
 		<div id="booking_engine_intro_img">
+			<img src="./resources/images/booking/offer.jpeg" alt="offer">
 		</div>
 		<form class="content" action="">
 				<label>Check-in</label>
@@ -100,27 +102,24 @@
 	<footer id="footer">
 		<div id="footer_contact">
 			<h4>Contact us at: </h4>
+			<p>Phone: +44 1253 241602</p>
 			<ul>
-				<li>Phone: +44 1253 241602</li>
-				<li><a href="https://www.facebook.com/"
-				       class="fa fa-facebook">
-					Visit our Facebook</a></li>
-				<li><a href="https://www.instagram.com/"
-				       class="fa fa-instagram">
-					Visit our Instagram</a></li>
-				<li><a href="https://twitter.com/" class="fa fa-twitter">
-					Visit our Twitter</a></li>
+				<li><a href="https://www.facebook.com/">
+					<img src="./resources/images/footer/facebook.png" alt="facebook"></a></li>
+				<li><a href="https://www.instagram.com/">
+					   <img src="./resources/images/footer/instagram.png" alt="instagram"></a></li>
+				<li><a href="https://twitter.com/">
+					<img src="./resources/images/footer/twitter.png" alt="twitter"></a></li>
 			</ul>
-
-			<!--					<button class="btnmodal" href="#popup1" data-toggle="modal" data-target="#myModal">Sign up</button>-->
 
 			<address>Promenade, Blackpool FZ1 1CB, United Kingdom</address>
 		</div >
 		<form action="" id="footer_form">
-			<div>
+			<div class="newsletter">
+				<label>Subscribe to our newsletter!</label>
 				<input class="input-field" type="text" placeholder="Enter your email" name="email">
+				<button type="submit" class="btn">Subscribe</button>
 			</div>
-			<button type="submit" class="btn">Subscribe</button>
 
 		</form>
 	</footer>
